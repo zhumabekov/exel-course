@@ -23,11 +23,18 @@
   },
   "homepage": "https://github.com/zhumabekov/exel-course#readme",
   "private": true,
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "*",
     "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"
   }
